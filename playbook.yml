@@ -1,0 +1,13 @@
+---
+- hosts: all
+  become: true
+
+- name: install first playbook 
+  import_playbook: template.yml
+  vars: 
+    app_user: "administrator"
+    http_host: "yehia"
+    http_conf: "yehia.conf"
+    http_port: "80"
+    disable_default: true
+

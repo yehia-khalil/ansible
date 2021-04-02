@@ -1,0 +1,2 @@
+itihost ansible_host=192.168.1.11 ansible_user=administrator ansible_password=K0k0w@w@20 ansible_become_pass=K0k0w@w@20
+
